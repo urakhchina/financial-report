@@ -1,13 +1,13 @@
 import React from 'react';
-import PasswordProtect from 'react-simple-password-protect';
+import PasswordProtection from './PasswordProtection';
 import FinancialReport from './FinancialReport';
 
 const ProtectedApp = () => {
   return (
     <div>
-      <PasswordProtect password="shaklee">
+      <PasswordProtection password="shaklee">
         <FinancialReport />
-      </PasswordProtect>
+      </PasswordProtection>
     </div>
   );
 };
