@@ -3,15 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@tailwindcss/postcss7-compat": "^2.2.17",
+    "@tailwindcss/ui": "^0.7.2",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",
     "@testing-library/user-event": "^13.5.0",
+    "autoprefixer": "^10.4.21",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.5.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-scripts": "5.0.1",
+    "recharts": "^2.15.1",
+    "tailwindcss": "^1.9.6",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "https://urakhchina.github.io/financial-report",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
