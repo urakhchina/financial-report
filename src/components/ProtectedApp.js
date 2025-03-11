@@ -1,5 +1,5 @@
 import React from 'react';
-import PasswordProtect from 'react-password-protect';
+import PasswordProtect from 'react-simple-password-protect';
 import FinancialReport from './FinancialReport';
 
 const ProtectedApp = () => {
