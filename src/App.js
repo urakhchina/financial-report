@@ -1,10 +1,11 @@
 import React from 'react';
-import FinancialReport from './components/FinancialReport';
+import ProtectedApp from './components/ProtectedApp';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <FinancialReport />
+      <ProtectedApp />
     </div>
   );
 }
